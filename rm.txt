@@ -1,0 +1,1 @@
+superglobal variables in php

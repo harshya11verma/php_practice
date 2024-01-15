@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+</head>
+<body>
+    <?php
+    class toys{
+        public function ntoy(){
+            return __CLASS__;
+
+        }
+    }
+    $obj= new toys();
+    echo $obj->ntoy();
+    ?>
+</body>
+</html>

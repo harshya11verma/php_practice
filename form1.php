@@ -13,7 +13,7 @@
 <body>
 <h2>PHP Form Validation Example</h2>
 <p><span class="error">* required field</span></p>
-<form method="post" action="credentials.php">
+<form method="post" action="credentials.php" enctype="multipart/form-data">
     <label>Name</label><input type="text" name="name">
     
   <br><br>
@@ -25,7 +25,12 @@
     
     Comment: <textarea name="comment" rows="5" cols="40"></textarea>
    
-    <button type="submit" name="submit">Submit</button>
+    <br><br>
+    <button type="submit" name="submit" value="submit">submit</button>
+    <!-- Upload file:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit"> -->
+
 </form>
 </body>
 </html>

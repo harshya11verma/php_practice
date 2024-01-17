@@ -1,4 +1,4 @@
-?php
+<?php
     session_start();
     ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
 </head>
 <body>
    <?php
-  
+  include_once ('session.php');
 
    echo "The session variables are set <br>";
    echo "Favorite color of user is ".$_SESSION['favcolor']."<br>";

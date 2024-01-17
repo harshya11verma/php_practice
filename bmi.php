@@ -10,7 +10,7 @@
     ENTER WEIGHT IN KILOS:
      <input type="number" name="weight">KG<br><br>
      ENTER HIEGHT IN METERS:
-     <input type="number" step="any" name="hieght">M<br><br>
+     <input type="number" step=".01" name="hieght">M<br><br>
      <button type="submit" name="submit"  value="submit">submit</button>
     </form>
     <?php

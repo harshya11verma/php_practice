@@ -3,10 +3,10 @@ include_once("config.php");
 
 if(isset($_POST['submit'])){
     // echo "inside if";
-$name=$_POST["name"];
-$email=$_POST["email"];
-$gender=$_POST["gender"];
-$comment=$_POST["comment"];
+$name=$_GET["name"];
+$email=$_GET["email"];
+$gender=$_GET["gender"];
+$comment=$_GET["comment"];
 
 
 

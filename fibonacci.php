@@ -7,10 +7,9 @@ function fibonacci($n) {
     return $fib;
 }
 
-// Example usage
+
 $terms = 10;
 $result = fibonacci($terms);
 echo implode(', ', $result);
 
-readfile('rm.txt');
 ?>
